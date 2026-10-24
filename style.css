@@ -1,0 +1,272 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome);
+
+/* Utils */
+.clear {
+  clear: both;
+}
+
+.purple {
+  color: #837c9a;
+}
+
+.block {
+  margin: 25px 30px;
+  font-weight: 200;
+}
+
+.last.block {
+  margin-bottom: 110px;
+}
+
+.horizontal_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.horizontal_list li {
+  float: left;
+}
+.horizontal_list li:before {
+  content: none;
+}
+.horizontal_list li { 
+  padding-left: 0; 
+  text-indent: 0;
+}
+
+.horizontal_line {
+  margin: 34px 0 0 30px;
+  height: 26px;
+  position: relative;
+}
+
+.line_left,
+.line_right {
+  border-top: 1px solid #434247;
+  width: 305px;
+  margin-top: 13px;
+}
+
+.line_left {
+  float: left;
+}
+
+.line_right {
+  float: right;
+}
+
+.horizontal_line{
+  margin: 34px 0 0 30px;
+  height: 26px;
+  position: relative;	
+}
+  .line_left,
+  .line_right{
+    border-top: 1px solid #434247;
+    width: 305px;
+    margin-top: 13px;
+  }
+  .left_circle, 
+  .central_circle, 
+  .right_circle {
+    background: rgb(69,68,73);
+    background: rgba(255,255,255, 0.15);
+    position: absolute;
+    border-radius: 50px;
+  }
+  .left_circle, 
+  .right_circle {
+    width: 13px;
+    height: 13px;
+    top: 7px;
+  }
+  .left_circle{
+    left: 314px;
+  }
+  .central_circle{
+    width: 26px;
+    height: 26px;		
+    top: 0px;
+    left: 322px;
+  }
+  .right_circle{
+    left: 343px;
+  }
+
+/* main */
+body {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png) #000507;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #837c9a;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 32px 0 24px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #e4e3e8;
+  
+  
+}
+
+blockquote {
+  font-style: italic;
+  margin: 25px 0;
+  padding-left: 20px;
+  border-left: 2px solid #837c9a;
+}
+
+blockquote, p, a, li {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #e4e3e8;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+li:before {
+  content: "• ";
+  color: #837c9a;
+  font-size: 20px;
+  padding-right: 8px;
+}
+
+/* Containers size */
+#main_container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 130px;
+  border-bottom: 1px solid #403F44;
+}
+
+.header_logotype_container {
+  width: 260px;
+  height: 130px;
+  border-right: 1px solid #403F44;
+  float: left;
+}
+
+.header_menu_container {
+  height: 130px;
+  width: 699px;
+  float: right;
+}
+
+.header_menu_container a {
+  font-family: 'Lato', Helvetica, sans-serif;
+}
+
+#left_col {
+  width: 260px;
+  float: left;
+}
+
+#content_container {
+  width: 699px;
+  border-left: 1px solid #403F44;
+  float: left;
+}
+
+#footer {
+  width: 960px;
+  height: 60px;
+  border-top: 1px solid #403F44;
+  display: inline-block;
+}a
+
+.profile_frame{
+  width: 230px;
+  height: 260px;
+  background: black;
+  border: 1px solid #403F44;
+  margin-top: 30px;
+}
+  .profile_picture{
+    width: 210px;
+    height: 240px;
+    margin:10px;
+    background: url("https://cdn.glitch.global/8b3a9202-a84c-4498-b411-c3cf72b55958/384567783_358379739963566_9194891576505526027_n.jpg?v=1699936502451");
+    background-size: cover;
+  }
+
+/* HEADER */
+.logotype_name {
+  text-transform: uppercase;
+  font-size: 32px;
+  margin: 43px 0
+}
+  .header_menu {
+    width: 699px;
+    margin-top: 40px;
+    margin-left: 5px;
+  }
+    .header_menu a{
+      text-decoration: none;
+      padding: 0 20px;
+      border-left: 1px solid #e4e3e8;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .header_menu a.no_border{
+      border-left: none;
+    }
+      .header_menu a:hover {
+        color: #837c9a;
+      }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.image-container {
+  display: flex; /
+  justify-content: space-between; */
+  align-items: center; 
+  margin: 20px 0; /
+}
+
+.volunteer-photo {
+  max-width: 45%; 
+  height: auto; 
+  margin: 10px;
+  border-radius: 8px; 
+}
+
